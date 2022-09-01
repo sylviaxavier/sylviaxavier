@@ -6,7 +6,7 @@
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=sylviaxavier&show_icons=false&theme=dracula&include_all_commits=true&count_private=true"/>
   </a>
   <a>
-  <img height="230em" width="500px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sylviaxavier&layout=compact&langs_count=7&theme=dracula"/>
+  <img height="230em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sylviaxavier&layout=compact&langs_count=7&theme=dracula"/>
   </a>
 </div>
 <div style="display: inline_block"><br>
