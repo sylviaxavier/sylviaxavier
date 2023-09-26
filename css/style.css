@@ -4,6 +4,7 @@
 :root{
     --text-font: 'Lato', sans-serif;
     --title-font: 'Great Vibes', cursive;
+    font-size: 62.5%;
 }
 *{
     margin: 0;
@@ -15,12 +16,61 @@ body{
 }
 a {
     text-decoration: none;
+    color: black;
 }
 img {
     display: block;
     max-width: 100%;
     height: auto;
 }
+.hidden{
+    display: none;
+}
+#intro-container{
+    width: 100vw;
+    height: 100vh; 
+    background-image: url('../images/roxoabstrato.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+    z-index: 1;
+    margin-bottom: 15%;
+}
+
+.intro-content{
+    text-align: center;
+    padding: 10%;
+}
+.intro-content h1{
+    font-family: var(--title-font);
+    font-size: 10rem;
+    color: white
+}
+.intro-content h3{
+    padding-top: 4.3%;
+    font-family: var(--text-font);
+    font-size: 2.9rem;
+    color: white
+}
+i{
+    width: 10rem;
+    margin: 3%;
+}
+
+/*
+#intro-container::after{
+     content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color:rgb(197, 177, 216);
+    opacity: 0.5;
+    z-index: -1;
+}
+*/
+
 /*Card*/
 .container{
     display: flex;
@@ -135,7 +185,7 @@ img {
         display: block;
     }
 }
-@media screen and (min-widht: 1120px){
+@media screen and (min-width: 1120px){
     .card-container{
         max-width: 1120px;
     }

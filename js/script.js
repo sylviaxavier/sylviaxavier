@@ -1,3 +1,4 @@
+//Swiper Script
 let swiperCards = new Swiper('.card-content', {
     // Optional parameters
     //direction: 'vertical',
