@@ -230,11 +230,13 @@ header ul li a {
   width: 100vw;
   padding: 8% 4% 8% 4%;
 }
-.projects-content h2{
+.projects-content h2,
+.contact-content h2{
   font-size: 5rem;
   text-align: center;
 }
-.projects-content-resume{
+.projects-content-resume,
+.contact-content-resume{
   font-size: 1.5rem;
   line-height: 2.4rem;
   text-align: justify;
@@ -332,7 +334,47 @@ header ul li a {
 }
 
 /*Contact-container*/
-
+#contact-container{
+  height: 100vh;
+  width: 100vw;
+  background-color: #E0D2EF;
+  padding: 8% 4% 8% 6%;
+}
+.contact-content-inputs{
+  margin-left: 3rem;
+  margin-top: 2%;
+}
+.contact-content-inputs input[type="text"], 
+input[type="textarea"],
+input[type="email"]{
+  background-color: #eae5ef;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: .91rem;
+  border-color: rgb(178, 174, 223);
+}
+.contact-content-inputs  input[type="text"], 
+input[type="email"]{
+  height: 3rem;
+  display: inline;
+  width: 45%;
+}
+.contact-content-inputs input[type="textarea"]{
+  display: block;
+  width: 91.6%;
+  height: 10rem;
+}
+.contact-content-inputs input[type="button"]{
+  display: block;
+  background-color: rgb(178, 174, 223, 0.7);
+  border-radius: 0.25rem;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 3% 41%;
+  padding: 1% 5% 1%;
+  border-color: rgb(178, 174, 223, 0.7);
+}
 
 /*Breakpoints*/
 /*Cards*/
