@@ -1,9 +1,10 @@
 /*Google Font*/
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:wght@300;400;700;900&family=Playfair+Display:wght@400;500;700&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,300&display=swap");
 
-html{
-  scroll-behavior: smooth !important; 
+html {
+  scroll-behavior: smooth !important;
 }
+
 :root {
   --text-font: "Lato", sans-serif;
   --title-font: "Great Vibes", cursive;
@@ -101,30 +102,36 @@ header ul li a {
   position: relative;
   z-index: 1;
 }
+
 .intro-content {
   text-align: center;
   padding: 10%;
 }
+
 .intro-content h1 {
   font-family: var(--title-font);
   font-size: 10rem;
   color: white;
 }
+
 .intro-content h3 {
   padding-top: 4.3%;
   font-family: var(--text-font);
   font-size: 2.9rem;
   color: white;
 }
+
 .intro-content i,
-.home-content-cv i{
+.home-content-cv i {
   width: 10rem;
   margin: 3%;
 }
+
 .social-icons i:hover,
 .home-content i:hover,
-.formation-content i:hover
- {
+.formation-content i:hover,
+#call-social-container i:hover,
+.sci i:hover {
   transition: ease-in-out 0.2s;
   text-shadow: 2px 2px rgb(139, 50, 247);
 }
@@ -164,24 +171,29 @@ header ul li a {
   column-gap: 50px;
   column-rule: 4px dotted rgb(112, 57, 164);
 }
+
 .home-content-profile img {
   border-radius: 44%;
   width: 55%;
   margin-left: 20%;
 }
+
 .home-content-profile h1 {
   font-family: var(--title-font);
   font-size: 10rem;
 }
+
 .home-content-profile p {
   font-size: 1.5rem;
   width: 60%;
   text-align: justify;
   line-height: 2.4rem;
 }
+
 .home-content-cv i {
   padding-left: 4%;
 }
+
 .home-content-cv p {
   font-size: 1.5rem;
   position: relative;
@@ -193,29 +205,34 @@ header ul li a {
 #formation-container {
   height: 100vh;
   width: 100vw;
-  background-color: #E0D2EF;
+  background-color: #e0d2ef;
   padding: 8% 4% 8% 4%;
 }
+
 .formation-content h2 {
   font-size: 5rem;
   text-align: right;
   padding-right: 5%;
 }
+
 .formation-content i {
- position: fixed;
- bottom: 40px;
- right: 50px;
+  position: fixed;
+  bottom: 40px;
+  right: 50px;
 }
-.formation-content-detail{
+
+.formation-content-detail {
   padding-top: 17%;
   column-count: 2;
   column-gap: 50px;
   column-rule: 4px dotted rgb(112, 57, 164);
 }
+
 .formation-content-detail h3 {
   font-size: 3rem;
   text-align: center;
 }
+
 .formation-content-detail p {
   font-size: 1.5rem;
   line-height: 2.4rem;
@@ -224,50 +241,58 @@ header ul li a {
 }
 
 /*Projects-container*/
-#projects-container{
+#projects-container {
   background-color: #f0f1ff;
   height: 100vh;
   width: 100vw;
   padding: 8% 4% 8% 4%;
 }
+
 .projects-content h2,
-.contact-content h2{
+.contact-content h2 {
   font-size: 5rem;
   text-align: center;
 }
+
 .projects-content-resume,
-.contact-content-resume{
+.contact-content-resume {
   font-size: 1.5rem;
   line-height: 2.4rem;
   text-align: justify;
-  padding: 3%  10% 0%;
+  padding: 3% 10% 0%;
 }
+
 /*Card*/
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .card-container {
-  padding-block: 5rem; 
+  padding-block: 5rem;
   margin: 3%;
 }
+
 .card-content {
   margin-inline: 1.75rem;
   border-radius: 1.25rem;
   overflow: hidden;
 }
+
 .card-article {
   width: 300px;
   border-radius: 1.25rem;
   overflow: hidden;
 }
+
 .card-image {
   position: relative;
   background-color: rgb(151, 109, 179);
   padding-top: 1.5rem;
   margin-bottom: -0.75rem;
 }
+
 .card-data {
   background-color: rgb(235, 219, 240);
   padding: 1.5rem 2rem;
@@ -276,12 +301,14 @@ header ul li a {
   position: relative;
   z-index: 10;
 }
+
 .card-img {
   width: 180px;
   margin: 0 auto;
   position: relative;
   z-index: 5;
 }
+
 .card-shadow {
   width: 200px;
   height: 200px;
@@ -294,17 +321,20 @@ header ul li a {
   margin-inline: auto;
   filter: blur(45px);
 }
+
 .card-name {
   font-family: var(--text-font);
   font-size: 1.4rem;
   color: rgb(49, 49, 137);
   margin-bottom: 0.75rem;
 }
+
 .card-description {
   font-weight: 500;
   font-size: 1.2rem;
   margin-bottom: 1.75rem;
 }
+
 .card-button {
   display: inline-block;
   background-color: rgb(178, 174, 223);
@@ -321,50 +351,58 @@ header ul li a {
   content: "";
   visibility: hidden;
 }
+
 .swiper-button-prev,
 .swiper-button-next {
   font-size: 3.5rem;
 }
+
 .swiper-button-prev {
   padding-left: -1rem;
   left: 0;
 }
+
 .swiper-button-next {
   right: -1rem !important;
 }
 
 /*Contact-container*/
-#contact-container{
+#contact-container {
   height: 100vh;
   width: 100vw;
-  background-color: #E0D2EF;
+  background-color: #e0d2ef;
   padding: 8% 4% 8% 6%;
 }
-.contact-content-inputs{
+
+.contact-content-inputs {
   margin-left: 3rem;
   margin-top: 2%;
 }
-.contact-content-inputs input[type="text"], 
+
+.contact-content-inputs input[type="text"],
 input[type="textarea"],
-input[type="email"]{
+input[type="email"] {
   background-color: #eae5ef;
   padding: 2rem;
   margin: 1rem;
-  border-radius: .91rem;
+  border-radius: 0.91rem;
   border-color: rgb(178, 174, 223);
 }
-.contact-content-inputs  input[type="text"], 
-input[type="email"]{
+
+.contact-content-inputs input[type="text"],
+input[type="email"] {
   height: 3rem;
   display: inline;
   width: 45%;
 }
-.contact-content-inputs input[type="textarea"]{
+
+.contact-content-inputs input[type="textarea"] {
   display: block;
   width: 91.6%;
   height: 10rem;
 }
-.contact-content-inputs input[type="button"]{
+
+.contact-content-inputs input[type="button"] {
   display: block;
   background-color: rgb(178, 174, 223, 0.7);
   border-radius: 0.25rem;
@@ -374,6 +412,122 @@ input[type="email"]{
   margin: 3% 41%;
   padding: 1% 5% 1%;
   border-color: rgb(178, 174, 223, 0.7);
+}
+
+/*Call-social-container*/
+#call-social-container {
+  background-color: #f0f1ff;
+  height: 100vh;
+  width: 100vw;
+  padding: 10% 4% 10% 4%;
+}
+
+#call-social-container h2 {
+  font-size: 3rem;
+  text-align: center;
+  line-height: 5.4rem;
+  padding-bottom: 1rem;
+}
+
+#call-social-container i {
+  margin: 6.7% 5% 1% 28.1%;
+}
+
+/*Thanks-container*/
+#thanks-container {
+  height: 10vh;
+  width: 100vw;
+  background-color: #e0d2ef;
+  padding: 8% 4% 8% 4%;
+}
+
+#thanks-container h2 {
+  font-family: var(--title-font);
+  font-size: 6rem;
+}
+
+/*Footer-container*/
+#footer-container {
+  background-image: url("../images/roxoabstrato.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+
+  width: 100vw;
+  height: 60vh;
+  padding: 8% 1% 8% 10%;
+  display: grid;
+  justify-content: center;
+}
+
+.footer-content {
+  font-size: 1.4rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.footer-content .sci {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+}
+
+.footer-content .sci li,
+.footer-content-links li {
+  list-style: none;
+}
+
+.footer-content-links,
+.footer-content-contact {
+  position: relative;
+  color: white;
+}
+
+.footer-content-links h2,
+.footer-content-contact h2 {
+  padding-bottom: 15px;
+}
+
+.footer-content-links ul li a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.footer-content-contact ul {
+  position: relative;
+}
+
+.footer-content-contact ul li {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  margin-bottom: 16px;
+}
+
+.footer-content-contact ul li span {
+  color: rgb(207, 202, 202);
+  font-size: 20px;
+}
+
+.footer-content-contact ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.copyright {
+  width: 87%;
+  padding: 20px 100px 30px;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  border-top: 1px solid rgb(225, 198, 198);
+}
+
+.footer-content ul {
+  margin-bottom: 4rem;
 }
 
 /*Breakpoints*/
@@ -386,6 +540,22 @@ input[type="email"]{
   .swiper-button-next,
   .swiper-button-prev {
     visibility: hidden;
+  }
+
+  footer {
+    padding: 40px;
+  }
+
+  .footer-content {
+    position: relative;
+    font-size: 1.4rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+
+  .copyright {
+    padding: 20px 40px 30px;
   }
 }
 
