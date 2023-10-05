@@ -194,7 +194,7 @@ header ul li a {
   height: 100vh;
   width: 100vw;
   background-color: #E0D2EF;
-  padding: 10% 4% 10% 4%;
+  padding: 8% 4% 8% 4%;
 }
 .formation-content h2 {
   font-size: 5rem;
@@ -228,55 +228,58 @@ header ul li a {
   background-color: #f0f1ff;
   height: 100vh;
   width: 100vw;
-  padding: 10% 4% 10% 4%;
+  padding: 8% 4% 8% 4%;
+}
+.projects-content h2{
+  font-size: 5rem;
+  text-align: center;
+}
+.projects-content-resume{
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  text-align: justify;
+  padding: 3%  10% 0%;
 }
 /*Card*/
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
-
 .card-container {
-  padding-block: 5rem;
+  padding-block: 5rem; 
+  margin: 3%;
 }
-
 .card-content {
   margin-inline: 1.75rem;
   border-radius: 1.25rem;
   overflow: hidden;
 }
-
 .card-article {
   width: 300px;
   border-radius: 1.25rem;
   overflow: hidden;
 }
-
 .card-image {
   position: relative;
-  background-color: aquamarine;
+  background-color: rgb(151, 109, 179);
   padding-top: 1.5rem;
   margin-bottom: -0.75rem;
 }
-
 .card-data {
-  background-color: antiquewhite;
+  background-color: rgb(235, 219, 240);
   padding: 1.5rem 2rem;
   border-radius: 1rem;
   text-align: center;
   position: relative;
   z-index: 10;
 }
-
 .card-img {
   width: 180px;
   margin: 0 auto;
   position: relative;
   z-index: 5;
 }
-
 .card-shadow {
   width: 200px;
   height: 200px;
@@ -289,25 +292,25 @@ header ul li a {
   margin-inline: auto;
   filter: blur(45px);
 }
-
 .card-name {
-  font-size: var(--text-font);
-  color: blue;
+  font-family: var(--text-font);
+  font-size: 1.4rem;
+  color: rgb(49, 49, 137);
   margin-bottom: 0.75rem;
 }
-
 .card-description {
   font-weight: 500;
+  font-size: 1.2rem;
   margin-bottom: 1.75rem;
 }
-
 .card-button {
   display: inline-block;
-  background-color: rgb(158, 107, 41);
+  background-color: rgb(178, 174, 223);
   padding: 0.75rem 1.5rem;
   border-radius: 0.25rem;
   color: black;
   font-weight: 600;
+  margin-bottom: 1.75rem;
 }
 
 /*Swiper class*/
@@ -316,25 +319,20 @@ header ul li a {
   content: "";
   visibility: hidden;
 }
-
 .swiper-button-prev,
 .swiper-button-next {
-  width: initial;
-  height: initial;
-  font-size: 3rem;
-  color: blueviolet;
-  display: none;
+  font-size: 3.5rem;
 }
-
 .swiper-button-prev {
-  padding-left: 1rem;
+  padding-left: -1rem;
   left: 0;
 }
-
 .swiper-button-next {
-  padding-left: 20rem;
-  right: 0;
+  right: -1rem !important;
 }
+
+/*Contact-container*/
+
 
 /*Breakpoints*/
 /*Cards*/
