@@ -137,17 +137,6 @@ header ul li a {
 }
 
 /*
-.reveal {
-  position: relative;
-  transform: translateY(150px);
-  opacity: 0;
-  transition: all 2s ease;
-}
-.reveal.active {
-  transform: translateY(0px);
-  opacity: 1;
-}
-
 #intro-container::after{
      content: '';
     position: absolute;
@@ -343,6 +332,7 @@ header ul li a {
   color: black;
   font-weight: 600;
   margin-bottom: 1.75rem;
+  cursor: pointer;
 }
 
 /*Swiper class*/
@@ -364,6 +354,44 @@ header ul li a {
 
 .swiper-button-next {
   right: -1rem !important;
+}
+
+/*Projects pages*/
+#Project-one,
+#Project-two,
+#Project-three,
+#Project-four {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f0f1ff;
+  padding: 8% 4% 8% 4%;
+  border-top: 40px solid plum;
+  border-bottom: 40px solid plum;
+}
+#Project-one h2,
+#Project-two h2,
+#Project-three h2,
+#Project-four h2{
+  font-family: var(--text-font);
+  font-size: 3.5rem;
+  text-align: center;
+}
+.Project-content{
+  padding-top: 5%;
+  text-align: center;
+  column-count: 2;
+  column-gap: 20px;
+  column-rule: 4px dotted rgb(112, 57, 164);
+}
+.Project-content p{
+  font-family: var(--text-font);
+  font-size: 1.4rem;
+  padding-top: 2%;
+}
+.Project-content img{
+  width: 40%;
+  height: 40%;
+  display: inline;
 }
 
 /*Contact-container*/

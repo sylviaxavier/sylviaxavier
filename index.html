@@ -18,6 +18,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="./images/favicon/favicon_io/site.webmanifest">
 </head>
 
 <body>
@@ -112,7 +117,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       In, molestias.
                     </p>
-                    <a href="#" class="card-button">Veja Mais</a>
+                    <a href="#Project-one"  onclick="openProjectOne()" class="card-button">Veja Mais</a>
                   </div>
                 </article>
                 <article class="card-article swiper-slide">
@@ -127,7 +132,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       In, molestias.
                     </p>
-                    <a href="#" class="card-button">Veja Mais</a>
+                    <a href="#Project-two"  onclick="openProjectTwo()" class="card-button">Veja Mais</a>
                   </div>
                 </article>
                 <article class="card-article swiper-slide">
@@ -142,7 +147,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       In, molestias.
                     </p>
-                    <a href="#" class="card-button">Veja Mais</a>
+                    <a href="#Project-three" onclick="openProjectThree()" class="card-button">Veja Mais</a>
                   </div>
                 </article>
                 <article class="card-article swiper-slide">
@@ -157,22 +162,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       In, molestias.
                     </p>
-                    <a href="#" class="card-button">Veja Mais</a>
-                  </div>
-                </article>
-                <article class="card-article swiper-slide">
-                  <div class="card-image">
-                    <img src="./images/roxoabstrato.png" alt="image" class="card-img" />
-                    <div class="card-shadow"></div>
-                  </div>
-
-                  <div class="card-data">
-                    <h3 class="card-name">Projeto 5</h3>
-                    <p class="card-description">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      In, molestias.
-                    </p>
-                    <a href="#" class="card-button">Veja Mais</a>
+                    <a href="#Project-four" onclick="openProjectFour()" class="card-button">Veja Mais</a>
                   </div>
                 </article>
               </div>
@@ -189,6 +179,64 @@
         </section>
       </div>
     </section>
+    <!--Projects individual pages-->
+    <section id="Project-one" style="display: none;">
+      <h2>PROJETO UM</h2>
+      <div class="Project-content">
+        <div class="Project-one-original-image">
+          <img src="./images/roxoabstrato.png" alt="imagem do projeto">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero vel ex perspiciatis eveniet quisquam totam officia sint, iure soluta praesentium nulla. Qui saepe, quidem maiores officia unde nulla itaque molestias.</p>
+        </div>
+        <div class="Project-one-responsive-image">
+          <img src="./images/roxoabstrato.png" alt="imagem do projeto responsivo">
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </section>
+    <section id="Project-two" style="display: none;">
+      <h2>PROJETO DOIS</h2>
+      <div class="Project-content">
+        <div class="Project-one-original-image">
+          <img src="./images/roxoabstrato.png" alt="imagem do projeto">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero vel ex perspiciatis eveniet quisquam totam officia sint, iure soluta praesentium nulla. Qui saepe, quidem maiores officia unde nulla itaque molestias.</p>
+        </div>
+        <div class="Project-one-responsive-image">
+          <img src="./images/roxoabstrato.png" alt="imagem do projeto responsivo">
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </section>
+    <section id="Project-three" style="display: none;">
+      <h2>PROJETO TRÊS</h2>
+      <div class="Project-content">
+        <div class="Project-one-original-image">
+          <img src="./images/roxoabstrato.png" alt="imagem do projeto">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero vel ex perspiciatis eveniet quisquam totam officia sint, iure soluta praesentium nulla. Qui saepe, quidem maiores officia unde nulla itaque molestias.</p>
+        </div>
+        <div class="Project-one-responsive-image">
+          <img src="./images/roxoabstrato.png" alt="imagem do projeto responsivo">
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </section>
+    <section id="Project-four" style="display: none;">
+      <h2>PROJETO QUATRO</h2>
+      <div class="Project-content">
+        <div class="Project-one-original-image">
+          <img src="./images/roxoabstrato.png" alt="imagem do projeto">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero vel ex perspiciatis eveniet quisquam totam officia sint, iure soluta praesentium nulla. Qui saepe, quidem maiores officia unde nulla itaque molestias.</p>
+        </div>
+        <div class="Project-one-responsive-image">
+          <img src="./images/roxoabstrato.png" alt="imagem do projeto responsivo">
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </section>
+    <!--Fim-->
     <section id="contact-container">
       <div class="contact-content">
         <h2>Gostaria de entrar em contato?</h2>
@@ -250,6 +298,17 @@
       <p>©2023. Desenvolvido por Sylvia Xavier.</p>
     </div>
   </footer>
+  <!--Acessibilidade Libras-->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
 </body>
 <!--Swiper JS-->
 <script src="./js/swiper-bundle.min.js"></script>

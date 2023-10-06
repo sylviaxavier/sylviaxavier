@@ -1,24 +1,40 @@
-window.addEventListener('scroll',reveal);
-function reveal(){
-  var reveals = document.querySelectorAll('.reveal')
-  
-  for(var i = 0; i < reveals.length; i++){
-    var windowheight = window.innerHeight;
-    var revealtop = reveals[i].getBoundingClientRect().top;
-    var revealpoint = 100;
-
-    if(revealtop < windowheight - revealpoint){
-      reveals[i].classList.add('active');
-    } else{
-      reveals[i].classList.remove('active');
-    }
-  }
-}
-
 window.addEventListener('scroll', navFluid)
 function navFluid(){
   var header = document.querySelector("header")
   header.classList.toggle('sticky', window.scrollY > 600)
+}
+/*-- */
+function openProjectOne() {
+  var x = document.getElementById("Project-one");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function openProjectTwo() {
+  var x = document.getElementById("Project-two");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function openProjectThree() {
+  var x = document.getElementById("Project-three");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function openProjectFour() {
+  var x = document.getElementById("Project-four");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
 }
 //Swiper Script
 let swiperCards = new Swiper('.card-content', {
