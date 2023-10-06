@@ -28,13 +28,22 @@
 <body>
   <main>
     <header class="navFluid">
-      <a href="#" class="logo">SX</a>
+       <a href="#" class="logo">SX</a>
       <ul>
         <li><a href="#home-container">Home</a></li>
         <li><a href="#formation-container">Educação</a></li>
         <li><a href="#projects-container">Projetos</a></li>
         <li><a href="#contact-container">Contato</a></li>
       </ul>
+      <div class="toggle-btn">
+        <i class="fa-solid fa-bars fa-2x"></i>
+      </div> 
+      <div class="dropdown-menu">
+        <li><a href="#home-container">Home</a></li>
+        <li><a href="#formation-container">Educação</a></li>
+        <li><a href="#projects-container">Projetos</a></li>
+        <li><a href="#contact-container">Contato</a></li>
+      </div>
     </header>
     <section id="intro-container">
       <div class="intro-content">
@@ -272,9 +281,9 @@
       <div>
         <ul class="sci">
           <li><a href="https://www.linkedin.com/in/sylvialeticiaxavier" target="_blank"><i
-                class="fa-brands fa-linkedin-in fa-2xl"></i></a></li>
+                class="fa-brands fa-linkedin-in fa-3x"></i></a></li>
           <li>
-            <a href="https://github.com/sylviaxavier" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
+            <a href="https://github.com/sylviaxavier" target="_blank"><i class="fa-brands fa-github fa-3x"></i></a>
           </li>
         </ul>
       </div>
@@ -301,6 +310,20 @@
       <p>©2023. Desenvolvido por Sylvia Xavier.</p>
     </div>
   </footer>
+  <script>
+    const toggleBtn = document.querySelector('.toggle-btn')
+    const toggleBtnIcon = document.querySelector('.toggle-btn i')
+    const dropDownMenu = document.querySelector('.dropdown-menu')
+
+    toggleBtn.onclick = function(){
+      dropDownMenu.classList.toggle('open')
+      const isOpen = dropDownMenu.classList.contains('open')
+
+      toggleBtnIcon.classList = isOpen 
+      ? 'fa-solid fa-xmark fa-2x'
+      : 'fa-solid fa-bars fa-2x'
+    }
+  </script>
   <!--Acessibilidade Libras-->
   <div vw class="enabled">
     <div vw-access-button class="active"></div>
