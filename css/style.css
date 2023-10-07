@@ -604,8 +604,6 @@ input[type="email"] {
 /*Breakpoints*/
 
 @media screen and (max-width: 420px) {
-
-  /*MOBILE*/
   /*Cards*/
   .card-data {
     padding: 1rem;
@@ -619,8 +617,11 @@ input[type="email"] {
   /*Footer*/
   footer {
     padding: 40px;
+    height: 95vh;
   }
-
+  #footer-container{
+    height: 83vh;
+  }
   .footer-content {
     position: relative;
     font-size: 1.7rem;
@@ -635,7 +636,7 @@ input[type="email"] {
     width: 100%;
     padding: 10px;
     font-size: 1.5rem;
-  }
+  }  
 }
 
 @media screen and (min-width: 768px) {
@@ -679,6 +680,7 @@ input[type="email"] {
   .dropdown-menu {
     display: block;
   }
+  
 }
 
 @media screen and (max-width: 576px) {
@@ -691,14 +693,15 @@ input[type="email"] {
   .intro-content h1 {
     margin-top: 15rem;
     font-family: var(--title-font);
-    font-size: 8rem;
+    font-size: 7rem;
     color: white;
   }
 
   .intro-content i {
     width: 10rem;
-    margin: 3%;
+    margin: 5%;
     color: white;
+    font-size: 5rem;
   }
 
   .home-content-cv i {
@@ -713,18 +716,19 @@ input[type="email"] {
     width: 100vw;
     padding: 10% 4% 10% 4%;
     column-count: 1;
+    column-gap: 0;
+    column-rule: 0;
   }
 
   .home-content-profile img {
     border-radius: 44%;
-    width: 60%;
-    margin-left: 20%;
+    width: 40%;
+    margin-left: 25%;
   }
 
   .home-content-profile h1 {
     padding-left: 4%;
-    font-family: var(--title-font);
-    font-size: 7rem;
+    font-size: 6rem;
   }
 
   .home-content-profile p {
@@ -737,8 +741,7 @@ input[type="email"] {
   }
 
   .home-content-cv i {
-    padding-left: 4%;
-    padding-top: 2%;
+    font-size: 4.6rem;
   }
 
   .home-content-cv p {
@@ -753,7 +756,7 @@ input[type="email"] {
     font-size: 4rem;
     text-align: center;
     padding-right: 0.1rem;
-    padding-top: 14rem;
+    padding-top: 10rem;
   }
 
   .formation-content i {
@@ -781,6 +784,9 @@ input[type="email"] {
   }
 
   /*Projects-container*/
+  #projects-container{
+    height: 120vh;
+  }
   .projects-content h2,
   .contact-content h2 {
     font-size: 4rem;
@@ -826,19 +832,19 @@ input[type="email"] {
   #Project-two,
   #Project-three,
   #Project-four {
-    height: 100vh;
+    height: 120vh;
     width: 100vw;
     background-color: #f0f1ff;
     padding: 8% 4% 8% 4%;
-    border-top: 40px solid plum;
-    border-bottom: 40px solid plum;
+    border-top: 20px solid plum;
+    border-bottom: 20px solid plum;
   }
 
   #Project-one h2,
   #Project-two h2,
   #Project-three h2,
   #Project-four h2 {
-    font-size: 4rem;
+    font-size: 3.4rem;
   }
 
   .Project-content {
@@ -858,24 +864,32 @@ input[type="email"] {
   }
 
   /*Call-social-container*/
+
+  #call-social-container{
+    padding: 30% 4% 10% 4%;
+  }
   #call-social-container h2 {
-    font-size: 3.8rem;
+    font-size: 3rem;
     line-height: 5.4rem;
-    padding-bottom: 1rem;
-    padding-top: 14rem;
+    padding-bottom: 0rem;
+    padding-top: 4rem;
   }
 
   #call-social-container i {
     padding-left: 6rem;
     margin: 6%;
+    font-size: 4.6rem;
   }
 
   /*Contact-container*/
 
   #contact-container {
-    padding-top: 14rem;
+    padding-top: 6rem;
+    height: 110vh;
   }
-
+  .contact-content-inputs form{
+    padding-right: 3%;
+  }
   .contact-content-inputs input[type="text"],
   input[type="textarea"],
   input[type="email"] {
@@ -885,6 +899,7 @@ input[type="email"] {
     border-radius: 0.91rem;
     border-color: rgb(178, 174, 223);
     font-size: 1.6rem;
+    
   }
 
   .contact-content-inputs input[type="text"],
@@ -895,14 +910,14 @@ input[type="email"] {
   }
 
   .contact-content-inputs button {
-    margin: 5% 31%;
+    margin: 7% 31%;
     padding: 1.3rem 2.5rem;
     font-size: 1.6rem;
   }
 
   /*Thanks-container*/
   #thanks-container {
-    height: 10vh;
+    height: 12vh;
     width: 100vw;
     background-color: #e0d2ef;
     padding: 4% 2% 4% 2%;
