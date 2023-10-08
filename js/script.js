@@ -28,14 +28,7 @@ function openProjectThree() {
     x.style.display = "block";
   }
 }
-function openProjectFour() {
-  var x = document.getElementById("Project-four");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
+
 //Swiper Script
 let swiperCards = new Swiper('.card-content', {
     // Optional parameters
