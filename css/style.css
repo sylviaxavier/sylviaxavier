@@ -329,9 +329,14 @@ header .toggle-btn {
   z-index: 10;
 }
 .our-weather-card-data{
-  padding: 2.3rem 2rem;
+  padding: 3rem 2rem;
 }
-
+.bistro-quente-card-data{
+  padding: 2.2rem 2rem;
+}
+.em-andamento-card-data{
+  padding: 2rem 2rem;
+}
 .card-img {
   width: 180px;
   margin: 0 auto;
