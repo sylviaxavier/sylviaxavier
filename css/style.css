@@ -169,7 +169,8 @@ header .toggle-btn {
 .home-content i:hover,
 .formation-content i:hover,
 #call-social-container i:hover,
-.sci i:hover {
+.sci i:hover,
+.footer-content-contact ul li a i:hover {
   transition: ease-in-out 0.2s;
   text-shadow: 2px 2px rgb(139, 50, 247);
 }
@@ -195,7 +196,7 @@ header .toggle-btn {
   width: 100vw;
   padding: 10% 4% 10% 4%;
   column-count: 2;
-  column-gap: 50px;
+  column-gap: 23px;
   column-rule: 4px dotted rgb(112, 57, 164);
 }
 
@@ -595,14 +596,10 @@ input[type="email"] {
   margin-bottom: 16px;
 }
 
-.footer-content-contact ul li span {
-  color: rgb(207, 202, 202);
-  font-size: 20px;
-}
-
-.footer-content-contact ul li a {
-  color: white;
-  text-decoration: none;
+.footer-content-contact ul li a i{
+  color: black;
+  font-size: 2rem;
+  padding-left: 4rem;
 }
 
 .copyright {
@@ -639,15 +636,15 @@ input[type="email"] {
   }
 
   #footer-container {
-    height: 83vh;
+    height: 98vh;
   }
 
   .footer-content {
     position: relative;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-gap: 20px;
+    grid-gap: 1px;
   }
 
   .footer-content .sci li i {
@@ -674,7 +671,7 @@ input[type="email"] {
   }
 }
 
-@media screen and (max-width: 1139px) {
+@media screen and (max-width: 1156px) {
   #home-container {
     background-color: #f0f1ff;
     height: 120vh;
@@ -763,11 +760,16 @@ input[type="email"] {
     color: white;
   }
 
-  .intro-content i {
+  .intro-content i{
     width: 10rem;
     margin: 5%;
     color: white;
     font-size: 5rem;
+  }
+  .footer-content-contact ul li a i{
+    margin: 5%;
+    color: white;
+    font-size: 2rem;
   }
 
   /*Home-section*/
